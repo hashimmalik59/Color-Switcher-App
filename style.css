@@ -34,7 +34,7 @@ button {
     padding: 10px 20px;
 }
 
-.container span {
+.container .message {
     color: red;
     font-weight: 900;
     font-size: 15px;
@@ -42,4 +42,22 @@ button {
 
 .container .hide {
     display: none;
+}
+
+.container .current-color {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #E5E5E5;
+    border: 1px solid gray;
+    text-align: center;
+    font-size: small;
+}
+
+.container .error {
+    border: 1px solid red;
+}
+
+.container button,
+.current-color {
+    cursor: pointer;
 }
