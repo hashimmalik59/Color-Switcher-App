@@ -57,7 +57,6 @@ button {
     border: 1px solid red;
 }
 
-.container button,
-.current-color {
+.container button {
     cursor: pointer;
 }

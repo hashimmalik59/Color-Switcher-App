@@ -17,11 +17,6 @@ submitColorButton.addEventListener("click", () => {
     }
 })
 
-currentColor.addEventListener("click", () => {
-    userInput.classList.add("error");
-    errorMessage.classList.remove("hide");
-})
-
 // Random Background color logic
 randomColorButton.addEventListener("click", () => {
 
@@ -33,4 +28,5 @@ randomColorButton.addEventListener("click", () => {
     document.body.style.backgroundColor = `${randomColor}`
     submitColorButton.innerHTML = "Apply Color"
     errorMessage.classList.add("hide");
+    userInput.style.border = "1px solid #000"
 })
